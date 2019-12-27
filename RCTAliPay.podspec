@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Lamboyare/react-native-wechat.git", :tag => "2.0.0" }
-  s.source_files  = "ios/*.{h,m}"
+  s.source_files  = "ios/AlipayModule/*.{h,m}"
   s.resources = "ios/*.bundle"
   s.dependency "React"
   s.vendored_frameworks = "ios/AlipaySDK.framework"
