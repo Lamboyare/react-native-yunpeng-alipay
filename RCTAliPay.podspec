@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Lamboyare/react-native-wechat"
   s.license      = "MIT"
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/Lamboyare/react-native-wechat.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/Lamboyare/react-native-wechat.git", :tag => "2.0.0" }
   s.source_files  = "ios/*.{h,m}"
   s.resources = "ios/*.bundle"
   s.dependency "React"
   s.vendored_frameworks = "ios/AlipaySDK.framework"
   s.requires_arc = true
   s.frameworks = 'CoreMotion','CoreTelephony'
-  s.library = 'libc++','libz'
+  s.library = 'c++','z'
 end
